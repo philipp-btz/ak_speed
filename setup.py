@@ -26,7 +26,12 @@ cursor.executescript("""
         uuid TEXT PRIMARY KEY,
         name TEXT,
         age INTEGER,
-        public_id TEXT
+        public_id TEXT,
+        gender TEXT,
+        gender_preferences TEXT,
+        bio TEXT,
+        age_preference_min INTEGER,
+        age_preference_max INTEGER,
     );
     CREATE TABLE IF NOT EXISTS matches (
         id INTEGER PRIMARY KEY AUTOINCREMENT,

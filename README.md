@@ -10,6 +10,11 @@ AK SPEED is a joint venture of the FS Informatik, Mathematics and Physics of the
     - name : TEXT
     - age : INTEGER
     - public_id : TEXT (identifier word, Pool an Wörtern TBD)
+    - gender : TEXT (m/f/d)
+    - gender_preference : TEXT (m/f/d)
+    - bio : TEXT
+    - age_preference_min : INTEGER
+    - age_preference_max : INTEGER
 
 - Table: matches
     - id : INTEGER PRIMARY KEY
