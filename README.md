@@ -4,7 +4,7 @@ AK SPEED is a joint venture of the FS Informatik, Mathematics and Physics of the
 
 
 
-## Database Schema SQLite3
+## Database Schema PostgreSQL
 - Table: people
     - uuid : TEXT PRIMARY KEY (uuid7, wird autoatisch bei erstellung generiert)
     - name : TEXT
